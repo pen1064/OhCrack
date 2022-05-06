@@ -6,7 +6,7 @@ More descriptions of different types of road cracks can be found in this paper [
 <img width="137" alt="image" src="https://user-images.githubusercontent.com/45325095/166854237-a4fb69ad-2bb0-4aa0-8e1e-10dfccbb8a72.png">
 
 
-2. Transfer learning from Retinanet 
+2. Transfer learning from Retinanet \
   2.1 Use Resnet50 as backbone, 5 feature pyramid layers are then feed into classification and regression subnets\
   2.2 The Resnet is not completly forzen, 3 of the backbone layers were trainable\
   2.3 Change the number of classes to fit this purpose (num_class = 7), num_classes affect the classification subnet, but not the regression subnet
