@@ -8,7 +8,7 @@ More descriptions of different types of road cracks can be found in this paper [
 
 2. Transfer learning from Retinanet \
   2.1 Use Resnet50 as backbone, 5 feature pyramid layers are then feed into classification and regression subnets\
-  2.2 The Resnet is not completly forzen, 3 of the backbone layers were trainable\
+  2.2 The Resnet is not forzen, all 5 layers are traiable aiming to improve the classification accuracy for D10 - Linear Crack\
   2.3 Change the number of classes to fit this purpose (num_class = 7), num_classes affect the classification subnet, but not the regression subnet
 
 4. Train around 31 epoches
