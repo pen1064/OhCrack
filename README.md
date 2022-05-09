@@ -11,7 +11,7 @@ More descriptions of different types of road cracks can be found in this paper [
   2.2 The Resnet is not forzen, all 5 layers are traiable aiming to improve the classification accuracy for D10 - Linear Crack\
   2.3 Change the number of classes to fit this purpose (num_class = 7), num_classes affect the classification subnet, but not the regression subnet
 
-4. Train around 31 epoches
+4. Train around 41 epoches
 
 
 ![image](https://user-images.githubusercontent.com/45325095/166853678-ad6c5d53-ed30-4191-8d26-2e5587520ebc.png)
